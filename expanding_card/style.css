@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  padding: 67px 77px;
+}
+.container .caroussel {
+  height: 100%;
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Muli', sans-serif;
+}
+.item {
+  cursor: pointer;
+  height: 100%;
+  width: 100px;
+  border-radius: 50px;
+
+  transition: flex 0.7s ease-in;
+
+}
+.plan {
+  height: 100%;
+  width: 600px;
+  border-radius: 45px;
+  transition: 0.5s;
+}
+
+.item1 {
+  position: relative;
+  background: url("./img/explore_le_monde.avif") no-repeat center/cover;
+}
+.item2 {
+  position: relative;
+  background: url("./img/foret_sauvage.avif") no-repeat center/cover;
+}
+.item3 {
+  position: relative;
+  background: url("./img/plage_ensoleillee.avif") no-repeat center/cover;
+}
+.item4 {
+  position: relative;
+  background: url("./img/ville_en_hiver.avif") no-repeat center/cover;
+}
+.item5 {
+  position: relative;
+  background: url("./img/montagnes_nuages.avif") no-repeat center/cover;
+}
